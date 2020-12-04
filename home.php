@@ -14,28 +14,17 @@
             <a href="home.php"><li><img id="logo" src="./media/astolfo_plushe.png" alt=""></li></a>
             <ul id="navMenu">
                 <li><a href="home.php">Home</a></li>
-                <li><a href="home.php">Story</a></li>
-                <li><a href="home.php">The app</a></li>
                 <li><a href="team.php">The team</a></li>
             </ul>
         </nav>
 
         <section>
             <div id="presentation">
-                <p>Le surf fait rêver. Destinations paradisiaques, culture du cool, sport de nature en ont fait un vecteur
-d’image que les publicitaires adorent. Pourtant, telle une photo Instagram dont on découvrirait les
-coulisses, la pratique du surf (ou de toute autre activité nautique immergée) cache une réalité très
-différente du fantasme.</p><p>
-Otites, gastro-entérites, irritations cutanées, trois maladies qu’un tiers des surfeur·euse·s ont déjà
-affirmé avoir eu après une session de surf. Tout au long de l’année, les eaux dans lesquelles les
-surfeurs pratiquent leur sport favori sont soumises à des pollutions de deux types : bactériologiques
-et chimiques. On peut bien sûr rajouter les déchets. Ils envahissent les océans, sont une gêne
-visuelle et peuvent même être dangereux pour l’intégrité physique des pratiquants (la personne qui
-écrit ces lignes a littéralement failli se faire assommé par une cuvette de toilette !). </p><p>
-Pour agir contre ces risques, Surfrider souhaite que la surveillance des eaux littorales soit renforcée,
-et faite toute l’année. Aujourd’hui, seule une surveillance estivale est imposée au niveau européen.
-Pour appuyer nos revendications, nous avons besoin de données sur la pratique des surfeurs, leur
-fréquence, leur temps d’exposition et leurs observations sur le milieu. 
+                <p>The sport. The big waves. The dreamy beaches. Surfing has still to be dethroned.  However, the behind-the-scenes are more than concerning.
+
+<br>Otitis, gastroenteritis, skin irritations. Three diseases that one over three surfers confirmed having it after only one session.  All year long, the water is infected by two types of pollution : bacteriological and chemical. With that, there's also the trash. They are everywhere. More than the view, they can have a dangerous physical impact on the surfers ( the person who wrote this text in french almost got hit by a toilet bowl! )
+
+To act again such risks, Surfrider wishes for the littorals to be more monitored all year long. Nowadays, it's only done in summer as it got imposes by the UE. To back up our claims, we need datas about the practice of the surfers, their frequency, their exposure times and their observation of a given place.
                 </p>
             </div>
             <div id="imgSurfer">

@@ -1,3 +1,13 @@
+@font-face{
+	font-family: 'Dustismo Roman'; 
+	src: url("../Dustismo_Roman.ttf");
+}
+
+*{
+    font-family: 'Dustismo Roman';
+}
+
+
 html,body
 {
     padding: 0;
