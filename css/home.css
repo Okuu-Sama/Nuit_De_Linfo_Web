@@ -1,5 +1,148 @@
+html,body
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Bar Menu*/
+#menuBar
+{
+    width: 100%;
+	margin: 0 auto;
+	height: auto;
+	position: sticky;
+    z-index: 1;
+    background-color: #f8de89;
+}
+
+#menuBar > a > li
+{
+    marker: none;
+    list-style-type:none;
+    display:inline-block;
+}
+
+.bar-container
+{
+    display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flex-wraper
+{
+    flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+#navMenu
+{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    list-style-type:none;
+	flex-direction: row;
+	align-content : center;
+	justify-content: space-around;
+	resize: horizontal;
+}
+
+#navMenu li
+{
+    display:inline-block;
+	width:150px;
+	height:40px;
+	text-align: center;
+    line-height:40px;
+    
+}
+
+#navMenu li :hover
+{
+    color: #00ffff;
+    background-color:#5b9eb3;
+    border-bottom: 2px solid #0f0cbd;
+    transition: ease-in-out 0.3s;
+}
+
+#navMenu li a
+{
+    display:block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	color: #258676;
+}
+
 #logo
 {
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+}
+
+/* Presentation Section */
+
+#presentation
+{
+    background: linear-gradient(45deg,#f8de89,#00ffff);
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: 15px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#imgSurfer
+{
+    position: relative;
+    margin-left: 46%;
+    margin-top: -25%;
+    z-index: -1;
+}
+
+/* Download Section*/
+
+#downloadtext
+{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+#downloadtext > p
+{
+    background: -webkit-linear-gradient(#4F04C2, #4FD7B5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+#download
+{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 60%;
+    background: linear-gradient(45deg,#f8de89,#00ffff);
+}
+
+#download p 
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer p
+{
+    margin-bottom: 0;
+    bottom: 0;
+    background: linear-gradient(45deg,#f8de89,#00ffff);
+    text-align: center;
+    font-size: 19;
+    font-weight: bold;
 }
